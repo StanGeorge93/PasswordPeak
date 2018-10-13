@@ -1,0 +1,6 @@
+.ext-btn-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    right: 10px;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "PasswordPeek",
+    "version": "1.0",
+    "description": "Helps you view the dotted password with just one click.",
+    "manifest_version": 2,
+    "web_accessible_resources": ["assets/icon-show.png", "assets/icon-hide.png"],
+    "icons": { "16": "./assets/icon-show.png",
+        "48": "./assets/icon-show.png",
+       "128": "./assets/icon-show.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*/*"],
+        "css": [ "style.css" ],
+        "js": ["./libs/jquery.min.js", "content.js"]
+      }
+    ]
+}
