@@ -86,3 +86,9 @@ setup();
 $(window).on("resize", function () {
     updatePos();
 })
+
+/**
+ * Created by George Stan at 10/13/2018
+ * Copyright (c) 10/2018 . All rights reserved.
+ * Last modified 10/13/2018
+ */
