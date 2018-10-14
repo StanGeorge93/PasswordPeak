@@ -7,3 +7,14 @@ In order to install the extension do the followings:
 2: Enable developer mode at top right corner
 3: load unpacked and go the the directory with the extension
 4: Hurray!
+
+
+# ScreanShots 
+
+### Before:
+
+![alt text](https://snag.gy/E2DlfQ.jpg)
+
+### After:
+
+![alt text](https://snag.gy/plhn2v.jpg)
